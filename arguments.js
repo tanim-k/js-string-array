@@ -32,6 +32,7 @@ const name = getFullName('Hanif', 'khan');
 const name1 = getFullName('tanim', 'khan');
 console.log(name1);
 console.log(name);
+
 // 4: learn to add many strings by for loop and arguments:
 function addMultipleNames() {
     console.log(arguments);
