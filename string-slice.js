@@ -16,6 +16,13 @@ const first = 'marry';
 const second = ' me';
 const fullString = first + second;
 const fullByConcat = first.concat(second).concat(' pera');
+// all join property
+const letters = ['a','b','c','d','e'];
+const joinAllletters = letters.join('');
+const joinAlllettersGap = letters.join(' ');
+const joinAlllettersGapComma = letters.join(',');
+const joinAlllettersGapCommaSpace = letters.join(', ');
+const joinAlllettersWord = letters.join(' proma ');
 console.log(allLetters);
 console.log(words);
 console.log(withoutA);
@@ -24,7 +31,8 @@ console.log('wishpart:', wishPart);
 console.log('sub-string:', itsLikeSlice);
 console.log('add>string:', fullString);
 console.log('add>string:', fullByConcat);
-// all join property
-const letters = ['a','b','c','d','e'];
-const joinAllletters = letters.join('');
-console.log(joinAllletters)
+console.log(joinAllletters);
+console.log(joinAlllettersWord);
+console.log(joinAlllettersGap);
+console.log(joinAlllettersGapComma);
+console.log(joinAlllettersGapCommaSpace);
