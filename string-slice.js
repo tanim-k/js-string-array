@@ -24,3 +24,7 @@ console.log('wishpart:', wishPart);
 console.log('sub-string:', itsLikeSlice);
 console.log('add>string:', fullString);
 console.log('add>string:', fullByConcat);
+// all join property
+const letters = ['a','b','c','d','e'];
+const joinAllletters = letters.join('');
+console.log(joinAllletters)
